@@ -1,0 +1,48 @@
+body {
+    background-color: #FE9993;
+}
+
+.container {
+    width: 700px;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.profilePic {
+    padding: 0 0 1rem 0;
+}
+
+.profilePic img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.profileContent h1 {
+    font-size: 1.8rem;
+}
+
+.profileContent h1 img {
+    width: 25px;
+    height: 25px;
+}
+
+.profileContent h2 {
+    font-size: 1.2rem;
+}
+
+.profileContent p {
+    color: #D0D0D1;
+}
+
+.followButton button {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.counters h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
