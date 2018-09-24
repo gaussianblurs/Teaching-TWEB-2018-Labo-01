@@ -4,6 +4,7 @@ module.exports = {
         "semi": ["warn", "never"],
         "indent": ["error", 4]
     },
+    // Avoir les variables globales comme document
     "env": {
         "browser": true
     }

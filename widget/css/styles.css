@@ -2,10 +2,16 @@ body {
     background-color: #FE9993;
 }
 
-.container {
-    width: 700px;
+widget {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+}
+
+.profile {
     background-color: white;
     padding: 1.5rem;
+    border-radius: 4px;
 }
 
 .profilePic {
@@ -45,4 +51,33 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+.post {
+    width: 90%;
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    padding: 50px;
+}
+
+.post .row {
+    padding: 0;
+}
+
+.postHeader h1 {
+    font-size: 1.2rem;
+}
+
+.postHeader .col {
+    padding: 0;
+}
+
+.postHeader h1 img {
+    width: 25px;
+    height: 25px;
+}
+
+.postHeader span {
+    font-size: 0.8rem;
+    color: #D0D0D1;
 }
