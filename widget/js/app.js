@@ -1,8 +1,10 @@
 function followButton() {
     if (this.classList.contains('active')) {
         this.classList.remove('active')
+        this.innerHTML = 'follow'
     } else {
         this.classList.add('active')
+        this.innerHTML = 'unfollow'
     }
 }
 
