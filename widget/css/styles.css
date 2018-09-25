@@ -108,26 +108,24 @@ p.less:after {
   text-decoration: none;
 }
 
-.likesCol {
-    padding: 1rem 1.6rem 0 1.6rem;
+.likes:before {
+    content: "";
+    background: url('../images/baseline-favorite_border-24px.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    z-index:100000;
+    display: inline-block;
+    vertical-align: -30%;
+    margin: 0 0.2rem 0 0;
 }
 
-.likesCol:before {
-    content: url('../images/baseline-favorite_border-24px.svg');
-    z-index:100000; /*a number that's more than the modal box*/
-    position: absolute;
-    left: 0;
-    padding: 0 1.6rem 0 0;
-}
-
-.retweetsCol {
-    padding: 1rem 3.2rem 0 3.2rem;
-}
-
-.retweetsCol:before {
-    content: url('../images/baseline-reply-24px.svg');
-    z-index:100000; /*a number that's more than the modal box*/
-    position: absolute;
-    left: 0;
-    padding: 0 1.6rem;
+.retweets:before {
+    content: "";
+    background: url('../images/baseline-reply-24px.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    z-index:100000;
+    display: inline-block;
+    vertical-align: -30%;
+    margin: 0 0.2rem 0 0;
 }
